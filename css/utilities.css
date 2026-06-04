@@ -1,0 +1,80 @@
+.step__number:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background: var(--accent-color);
+}
+
+.row__item h5::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #c9a96e;
+  display: block;
+  margin-top: 8px;
+}
+
+.nav__item-link:hover {
+  border-bottom: 0.1rem solid var(--accent-color);
+  transform: translateX(5px);
+}
+
+.btn:first-child:hover {
+  background: 0 0;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+}
+
+.btn:last-child:hover {
+  background: var(--white);
+  color: var(--primary-color) !important;
+  transform: translateY(-2px);
+  border-color: var(--white);
+}
+
+#about img:hover {
+  transform: scale(1.05);
+}
+
+.card__item:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+.testimonial__item:hover,
+.blog__item:hover {
+  transform: translateY(-5px);
+}
+
+.blog__item img:hover {
+  transform: scale(1.05);
+}
+
+.blog__more:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.25);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+  background: 0 0;
+  color: var(--accent-color);
+}
+
+footer a:hover {
+  color: #c9a96e;
+  padding-left: 6px;
+}

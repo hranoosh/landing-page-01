@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+body,
+span,
+a {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Playfair Display, serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+:root {
+  --primary-color: #2c2c2c;
+  --secondary-color: #f5f1e8;
+  --accent-color: #d4a573;
+  --text-dark: #030202;
+  --text-light: #666666;
+  --logo-text: #c9a96e;
+  --white: #ffffff;
+  --gradient-overlay: linear-gradient(
+    135deg,
+    rgba(44, 44, 44, 0.8),
+    rgba(212, 165, 116, 0.3)
+  );
+}

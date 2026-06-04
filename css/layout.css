@@ -1,0 +1,159 @@
+#home {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#home .content,
+form {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.home__title,
+.accent-text {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  width: 60%;
+}
+
+.home__btns {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+#about,
+#services,
+#process,
+#testimonials,
+#blog,
+#contact {
+  padding: 6rem 0;
+}
+
+#about .content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.section__subtitle {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.stats__row {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+#services .section__header,
+#process .section__header,
+#testimonials .section__header,
+#blog .section__header,
+#contact .section__header,
+#contact .section__header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.service__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.process__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.process__step {
+  width: 25%;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.testimonial__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.testimonial__author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.testimonial__author img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.blog__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.blog__info {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact__box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+.contact__info {
+  padding: 2rem;
+}
+
+.info__item {
+  padding: 2rem 0;
+}
+
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+
+.footer__brand {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
