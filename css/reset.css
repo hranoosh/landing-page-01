@@ -24,3 +24,7 @@ textarea:focus {
 li {
   list-style-type: none;
 }
+
+textarea {
+  font-family: inherit;
+}
